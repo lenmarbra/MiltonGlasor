@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: #ACB1B9;
+  width: 100vp;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;;
+}
+#note{
+  position: absolute;
+  top: 0em;
+  left: 0em;
+}
+#pin{
+  position: absolute;
+  top: -1em;
+  left: 0;
+}
+#bg{
+    z-index: -1;
+  }
+
